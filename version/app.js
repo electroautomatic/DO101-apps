@@ -5,7 +5,7 @@ console.log('Starting application...');
 
 app.get('/', function (req, res) {
     console.log('Received request at /');
-    const response = 'This is version 3 of the app.\n';
+    const response = 'This is version 4 of the app.\n';
     res.send(response);
 });
 
