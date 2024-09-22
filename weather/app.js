@@ -8,13 +8,6 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
-app.listen(8080, '0.0.0.0', function (err) {
-  if (err) {
-      console.error('Error starting server:', err);
-  } else {
-      console.log('Server listening on 0.0.0.0:8080');
-  }
-});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
